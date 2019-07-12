@@ -5,7 +5,7 @@ set -gx PATH /usr/local/go/bin $PATH
 function fish_prompt
     set_color brcyan 
     set_color -r
-    echo -n -s "$USER" @ (prompt_hostname)
+#   echo -n -s "$USER" @ (prompt_hostname)
     set_color normal
     echo -n -s ' '
     set_color brcyan
