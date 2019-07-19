@@ -15,6 +15,7 @@ set autoindent
 set ruler
 set noshowmode
 set number
+set clipboard+=unnamedplus
 
 " lightline config
 let g:lightline = {
