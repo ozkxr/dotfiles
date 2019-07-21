@@ -2,10 +2,10 @@
 set fish_greeting
 
 # Start tmux, if not already started
-# if status is-interactive
-# and not set -q TMUX
-#     exec tmux
-# end
+if status is-interactive
+and not set -q TMUX
+    exec tmux
+end
 
 # Use a simpler prompt
 function fish_prompt
